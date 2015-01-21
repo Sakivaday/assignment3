@@ -16,7 +16,6 @@ body{
 	margin-left: 30px;
 	box-shadow: 2px 2px 2px #cacaca;
 	width: 400px;
-	height: 335px;
 	border-radius: 5px;
 }
 .balancedue{
@@ -85,12 +84,17 @@ button{
 	margin-left: 20px;
 	padding-top: 10px;
 }
+.leftbottom2 ul li{
+	border-bottom: 1px solid #989896;
+}
 .leftbottom2 ul li a{
 	font-size: 13px;
-	border-bottom: 1px solid #989896;
 	margin-left: 20px;
 	padding-bottom: 8px;
 	display: inherit;
+}
+.leftbottom2 ul li:last-child {
+	border-bottom: none;
 }
 .right{
 	float:left;
@@ -98,7 +102,6 @@ button{
 	margin-top:10px;
 	margin-left: 30px;
 	width: 450px;
-	height: 390px;
 }
 .box{
 	border: 1px solid #989896;
@@ -107,7 +110,6 @@ button{
 	margin-left: 32px;
 	box-shadow: 2px 2px 2px #cacaca;
 	width: 400px;
-	height: 340px;
 	border-radius: 3px;
 }
 .tickmark{
@@ -133,7 +135,8 @@ button{
 .right .box .right1{
 	background-color: #f9f9f9;
 	border-bottom: 1px solid #989896;
-	display: flex ;
+	display: inline-block;
+	width:100%;
 }
 .rightbottom1 h2{
 	margin-left: 25px;
@@ -149,17 +152,21 @@ button{
 	border-bottom: 1px dashed #989896;
 	padding-bottom: 20px;
 }
+.rightbottom2 ul li{
+	border-bottom: 1px dashed #989896;
+}
 .rightbottom2 ul li a{
 	margin-left: 20px;
 	padding-top: 15px;
 	padding-bottom: 25px;
 	font-size: 14px;
 	display: inherit;
-	border-bottom: 1px dashed #989896;
+}
+.rightbottom2 ul li:last-child {
+	border-bottom: none;
 }
 .bottom{
 	background-color: white;
-	height: 250px;
 	width: 980px;
 	float: left;
 	margin-top: 12px;
@@ -185,8 +192,63 @@ button{
 .bottom .rectbox .tickmarkbox a{
 	margin-top: 75px;
 	display: inline-block;
-	 text-align: center;
+	text-align: center;
 }
-
-
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .left{
+        width: 44%;
+    }
+    .right{
+    	width: 48%;
+    }
+    .box{
+    	width: 89%;
+    }
+    .bottom{
+        width: 99%;
+    }
+    .rectbox{
+        width: 97%;
+    }
+    .bottom .rectbox .tickmarkbox{
+        margin-left: 20px;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .left{
+        width: 73%;
+    }
+    .border{
+    	width: 70%;
+    }
+    .right{
+    	width: 100%;
+    }
+    .box{
+    	width: 70%;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .rectbox{
+        width: 80%;
+    }
+    .bottom .rectbox .tickmarkbox{
+        margin-left: 60px;
+    }
+    .left2{
+    	margin-left: 440px;
+    }
+    .left1{
+    	margin-left: 110px;
+    }
+    .right .box .right1 a{
+    	margin-left: 560px;
+    }
+}
