@@ -7,7 +7,6 @@
 }
 .bigbox {
 	width:1100px;
-	height: 1000px;
 	margin-left:115px;
 	margin-top: 15px;
 	background-color: #e7e7e7;
@@ -86,7 +85,6 @@ button{
 }
 .topleft2{
 	width: 694px;
-	height: 470px;
 	background-color: white;
 	box-shadow: 2px 2px 2px #cacaca;
 	border-radius: 5px;
@@ -205,6 +203,117 @@ button{
 	margin-top: 21px;
 	margin-left: 10px;
 }
-
-
-
+.lst .pd a{
+	float: left;
+	margin-left: 38px;
+	margin-top: 4px;
+	font-size: 13px;
+	width: 140px;
+}
+.payments{
+    background-color: #F5F5F5;
+	border-bottom: 1px solid #989896;
+	height: 52px;
+	width: 695px;
+	border-radius: 5px 5px 0px 0px;	
+	margin-left:20px;
+	margin-top: 40px;
+}
+.payments h2{
+	margin-top: 13px;
+	margin-left: 20px;
+	float: left;
+}
+.none{
+	background-color: #F5F5F5;
+	border-bottom: 2px solid #989896;
+	height: 60px;
+	width: 695px;
+	border-radius: 0px 0px 5px 5px;
+	margin-left:20px;
+}
+#no{
+	margin-left:20px;
+	margin-top: 21px;
+	color:#989896;
+	float:left;
+	font-size: 14px;
+}
+#cash{
+	margin-left:580px;
+	margin-top: 21px;
+	color:#989896;
+	float: left;
+	font-size: 14px;
+}
+.balance{
+    background-color: #F5F5F5;
+	border-bottom: 1px solid #989896;
+	height: 52px;
+	width: 695px;
+	border-radius: 5px 5px 0px 0px;	
+	margin-left:20px;
+	margin-top: 40px;
+}
+.balance h2{
+	margin-top: 13px;
+	margin-left: 20px;
+	float: left;
+}
+.totalbalance{
+	border-bottom: 1px solid #989896;
+	height: 60px;
+	width: 695px;
+	background-color: #F5F5F5;
+	border-radius: 0px 0px 5px 5px;
+	margin-left: 20px;
+}
+#tb{
+	margin-left:20px;
+	margin-top: 21px;
+	font-weight:600;
+	float:left;
+	font-size: 12px;
+}
+#dollar{
+	margin-left: 603px;
+	margin-top: -21px;
+	float: left;
+}
+.recentactivity{
+    background-color: #F5F5F5;
+	border-bottom: 1px solid #989896;
+	height: 52px;
+	width: 695px;
+	border-radius: 5px 5px 0px 0px;	
+	margin-left:20px;
+	margin-top: 40px;
+}
+.recentactivity h2{
+	margin-top: 13px;
+	margin-left: 20px;
+	float: left;
+}
+.rectbox2{
+	background-color: white;
+	height: 210px;
+	width: 695px;
+	border-radius: 0px 0px 5px 5px;	
+	margin-left:20px;
+}
+.lft1{
+	float: left;
+	margin-top: 4px;
+	margin-left: 20px;
+	font-weight:600;
+	font-size: 12px;
+	width: 160px;
+}
+.bills{
+	float: left;
+	margin-top: -12px;
+	margin-left: 636px;
+	font-weight:600;
+	font-size: 12px;
+	display:inline-block;
+}
